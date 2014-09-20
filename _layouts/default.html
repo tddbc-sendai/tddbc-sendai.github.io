@@ -8,14 +8,14 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <title>TDDBC Sendai WebSite by tddbc-sendai</title>
+    <title>{{ title }}</title>
   </head>
 
   <body>
 
     <header>
       <div class="container">
-        <h1>TDDBC Sendai WebSite</h1>
+        <h1>{{ page.title }}</h1>
         <h2>TDDBC Sendai&#39;s Web Site Open!!</h2>
 
         <section id="downloads">
@@ -26,10 +26,7 @@
 
     <div class="container">
       <section id="main_content">
-        <h1>
-<a name="welcome-to-tddbc-sendais-web-site" class="anchor" href="#welcome-to-tddbc-sendais-web-site"><span class="octicon octicon-link"></span></a>Welcome to TDDBC Sendai's Web Site.</h1>
-
-<p>This site is a page to introduce the TDDBC(Test-Driven Development Boot Camp) to be held in Sendai.</p>
+      {{ content }}
       </section>
     </div>
 
