@@ -1,0 +1,6 @@
+# Main Configs
+title: TDDBC Sendai WebSite2
+url: //tddbc-sendai.github.io/
+
+auto: true
+markdown: kramdown
